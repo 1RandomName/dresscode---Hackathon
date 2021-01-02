@@ -12,8 +12,9 @@ Pravila igre:
 Kako se igra ?
   - Korisnik programa igra protiv računara (inteligencije programa koja je implementirana)
   - Prilikom startovanja programa, nasumično se bira ko će prvi igrati i započinje sa "X", dok drugi na redu igra sa "O"
+  - Korisnik bira polje tako što odabere slobodno polje i odigra potez na izabranom polju levim klikom miša
   - Nakon završene partije, dobijamo obaveštenje o tome ko je pobedio ("X" ili "O") i na koji način je ostvarena pobeda
-  - Odmah posle toga korisnik dobija izbor da li će ponovo da igra ili ne, u slučaju da izabere da novu igru, polja se resetuju i ponovo se nasumično bira ko će prvi biti na         potezu, u suprotnom ukoliko odluči da prekine igru, program se gasi.
+  - Odmah posle toga korisnik dobija izbor da li će ponovo da igra ili ne. U slučaju da izabere novu igru, polja se resetuju i ponovo se nasumično bira ko će prvi biti na           potezu, u suprotnom ukoliko odluči da prekine igru, program se gasi.
   
  Kako funkcioniše inteligencija programa ?
   * termini: listForWin - lista koja čuva podatke o poljima koja program mora da odigra kako bi pobedio
