@@ -1,9 +1,9 @@
 # dresscode - Hackathon
 
-- Program je napisan u svrhu učestvovanja na novogodišnjem takmičenju Hackathon. Predstavlja napredniju verziju iks-oksa, napisan je u Java programskom jeziku i predstavlja       aplikaciju sa interaktivnim grafičkim korisničkim interfejsom koji je implementiran pomoću "JavaFX" biblioteke.
-- Da bi se program pokrenuo, potrebno je prethodno skinuti JavaFX biblioteku i importovati u svoj IDE. 
-- Na sledećem linku https://openjfx.io/openjfx-docs/?fbclid=IwAR3gkcZvha6WR-Qdbnyyhutgnkp-ATLQfbyF4QdMTqeSg-iqoUqqjwxesBY#introduction može se naći uputstvo za importovanje       pomenute biblioteke u Eclipse, InteliJ i Netbeans okruženje. 
-- Link za skidanje JavaFX: https://gluonhq.com/products/javafx/ 
+Program je napisan u svrhu učestvovanja na novogodišnjem takmičenju Hackathon. Predstavlja napredniju verziju iks-oksa, napisan je u Java programskom jeziku i predstavlja       aplikaciju sa interaktivnim grafičkim korisničkim interfejsom koji je implementiran pomoću "JavaFX" biblioteke.
+Da bi se program pokrenuo, potrebno je prethodno skinuti JavaFX biblioteku i importovati u svoj IDE. 
+Na sledećem linku https://openjfx.io/openjfx-docs/?fbclid=IwAR3gkcZvha6WR-Qdbnyyhutgnkp-ATLQfbyF4QdMTqeSg-iqoUqqjwxesBY#introduction može se naći uputstvo za importovanje       pomenute biblioteke u Eclipse, InteliJ i Netbeans okruženje. 
+Link za skidanje JavaFX: https://gluonhq.com/products/javafx/ 
 
 Pravila igre:
   - Pobeđuje igrač koji uspe da grupiše 4 ista znaka po dijagonali, vrsti, koloni ili ako ih grupiše u kvadrat dimenzije 2x2.
