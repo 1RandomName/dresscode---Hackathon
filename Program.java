@@ -199,20 +199,23 @@ public class Program extends Application {
 						"Pobeda je ostvarena " + message).showAndWait();
 			gameOver = true;
 		} else if (moveCounter == 16) {
-			new Alert(Alert.AlertType.INFORMATION, "Nereseno je ").showAndWait();
+			new Alert(Alert.AlertType.INFORMATION, "Nerešeno je ").showAndWait();
 			gameOver = true;
 		}
 		
 		// Ako je igra zavrsena, pitaj da li korisnik zeli novu igru
 		if (gameOver) {
-			Alert newGameAlert = new Alert(Alert.AlertType.CONFIRMATION, "New game ? (Press \"OK\" for continue)");
-			Optional<ButtonType> response = newGameAlert.showAndWait();
-			if (response.isPresent() && response.get() == ButtonType.OK)
-				resetGame();
-			else
-				Platform.exit();
+			try {
+				Alert newGameAlert = new Alert(Alert.AlertType.CONFIRMATION, "New game ? (Press \"OK\" for continue)");
+				Optional<ButtonType> response = newGameAlert.showAndWait();
+				if (response.isPresent() && response.get() == ButtonType.OK)
+					resetGame();
+				else
+					Platform.exit();
+			} catch (IllegalArgumentException iae) {
+				// Blok je namerno ostavljen prazan, ako dodje do greske program ce zbog "else" svakako biti zatvoren
+			}
 		}
-		
 	}
 
 	// Metod koji proverava da li postoji pobednik
